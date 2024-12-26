@@ -1,24 +1,65 @@
+
+
 Java:
-======
+======programming language
+
+	1996
+	
+	
+	Platform Independent
+
+welcome to java
+
+lowercase
+										Welcome.java
+							
+								compiler-->compailation
+									javac filename.java
+									
+									.class
+									
+									.class--->JVM
+
+				
+Identifiers
+Variables					container
+Datatypes			
+methods				extends,implements
+OOPS			-->Inheritance,abstraction,polymorphisam,encapsulation
+Exception handling
+threads
+collections
 
 
+			datatype varname=value
 
+		byte		1 byte  -128 to 127
+		short		2 		-32768 to 32767
+		int			4		-2147483648 to 
+		long		8
+				long age=32;	160 bytes
+				byte age=32;	20 bytes
 
+		float		4		float value=12.219631827391f;
+		double		8		double
 
+		boolean    	1 bit true-1 false-0
+		char		2 bytes
 
+					ASCII
+					Unicode
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		class A					
+		{
+		
+		}
+		class B extends A
+		{
+		
+		}
+		class C extends B{
+		
+		}
+		
+		By default parent class for every java class is java.lang.Object
+		By default package avilable for every java file is java.lang

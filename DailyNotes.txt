@@ -63,3 +63,107 @@ collections
 		
 		By default parent class for every java class is java.lang.Object
 		By default package avilable for every java file is java.lang
+		
+		
+		JDK-->JRE-->JVM
+		
+		package-->.class
+		jar--->packages
+		
+		Exception Handling:
+		===================
+		1)system defined error messages
+		2)abnormal termination
+		
+		
+		1)user friendly error messages
+		2)normal termination
+		
+				try--->risky code/error code,catch-->handling code,finally-->cleanup code,
+				
+				throw--->to throw exception explicitly,throws-->
+						
+						Object
+						Throwable
+				
+						AIOE
+						AE
+						NFE
+						NPE......
+						
+						
+						error
+						exception
+						
+	Collections:
+	==============
+	variables--->one value
+			int a=123;
+				a=124;
+				
+			arrays
+				int array[]={12,22,32,43,.....}
+				
+				
+					1)homogeneous
+					2)fixed in size 
+					3)methods
+			collections	Framework	 
+					
+					1)homogeneous & heterogeneous
+					2)not fixed in size 
+					3)methods
+					
+			ArrayList--10-->16-->25
+
+					(cc*3/2)+1
+					
+				Autowiring	
+				
+				
+				
+Arrays:
+========					
+					
+					
+					{{11,32,44},{54,67,98},{90,54,55}};
+					
+					
+					12 22 43
+					54 90 43
+					78 67 44
+					
+Collections:
+					
+					
+				Map
+
+						Key,value
+						
+					
+	SOLID	
+
+		1.single responsonbility principle
+		
+		
+		
+		
+		
+		
+		
+		class Test{
+		
+		public Test(String name )
+		{
+		
+		}
+		m1(){
+		
+		}
+		}
+		
+		class Hello{
+		
+		Test test=new Test();
+			test.m1();
+		}

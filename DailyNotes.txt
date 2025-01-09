@@ -167,3 +167,67 @@ Collections:
 		Test test=new Test();
 			test.m1();
 		}
+		
+		
+		
+		
+		
+		
+		
+				Servlets	
+	
+
+class Login  implements Servlet /GenericServlet/HttpServlet(12 methods)
+{
+
+
+heavy weight 
+}	
+			
+			EJB--->RodJohnson-->interface21-->spring framework-->2003  1.x
+			
+																		6.x												
+			
+			
+	Spring is a non-invasive framework ,which is used to create light weight and loosley coupled apps		
+			
+			
+			
+			loosley coupled
+			tightly coupled
+			
+			
+			
+			
+			spring container -->BeanFactory/ApplicationContext
+			
+			
+			spring framework--->Object life cycle
+			
+							1)creation of object
+							2)wiring the object
+							3)configuring object
+							4)destroying 
+							
+			spring core
+			spring jdbc
+			spring orm
+			spring web
+			spring aop
+			spring security
+			spring cloud
+			.................
+			
+			
+			spring core /dependency injection module/IOC
+			
+			//By default spring bean will follow singleton scope
+			
+			Xml configuration  <beans><bean>
+			annotation
+			java 
+			
+			Spring Aop
+			unittesting/mockito
+			validations
+			exception handling

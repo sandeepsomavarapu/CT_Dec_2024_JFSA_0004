@@ -224,10 +224,90 @@ heavy weight
 			//By default spring bean will follow singleton scope
 			
 			Xml configuration  <beans><bean>
-			annotation
-			java 
+			annotation   @Autowired/@Component/@Configuration/@ComponentScan/@Scope/@Value
+			java 			@Bean
+			
+			
+			Note:Spring has given annotations for user defined classes but not for predefined classes .
+						@Component/@Service/@Repository
+						
+						Layered Architecture:
+						====================
+						gmail login							Business layer/Service layer				DAO/Repository layer
+						
+						email
+						password
+						
+						UI Layer/presentation layer/controller layer				
+						
+				JAVA Config		
+						
+						
+						
+						
+						
+			
 			
 			Spring Aop
 			unittesting/mockito
 			validations
 			exception handling
+			
+			int a=123;
+			a=124;
+			
+			
+			
+JDBC:
+====
+
+	DDl-create,alter,drop,truncate,rename
+	DML--insert,update,delete
+	DRL-select
+
+	
+	constraints   FK
+	
+	joins
+	
+	
+	JDBC API:sun micro system
+	
+		table creation
+		Database Dependent querys
+		checked exceptions
+		No Cache 
+	
+	
+	
+	
+	JPA	-->sun micro system-->specification
+		
+		
+	ORM tools-->implementation-->hibernate,eclipselink,toplink,ibatis.....
+	
+	Hibernate-->jars
+	
+	
+	
+			1)zero querys(Database)
+			2)no table creation
+			3)unchecked exceptions
+			4)cache support
+	
+	
+	Product Crud
+	
+	
+	Product -->Entity
+	
+	
+	main method class
+	
+	
+	configuration(persistence.xml)
+		Database properties 4
+		
+		
+		hibernate  properties :3
+	

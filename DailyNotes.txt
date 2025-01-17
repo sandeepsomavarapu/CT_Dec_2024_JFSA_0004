@@ -310,4 +310,45 @@ JDBC:
 		
 		
 		hibernate  properties :3
-	
+		
+		spring framework
+		
+			Configuration		xml,@Bean
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Spring Boot	
+		
+		1)auto configuration
+		2)embeded server 
+		3)in memory DB h2
+		4)starters(maven)
+		5)actuators(end point urls)
+
+
+
+
+
+
+

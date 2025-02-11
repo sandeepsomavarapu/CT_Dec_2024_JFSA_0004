@@ -316,35 +316,299 @@ JDBC:
 			Configuration		xml,@Bean
 		
 		
+		JPA
+
+			Relations
+		Spring MVC 
+			
+			DB Layer    Business layer     frontend layer (JSP)
+			Mysql			Spring mvc		email
+											password
+		
+		
+							java 
+JSE 					JEE				 		JME		android	
+standalone	app(Core java,Apllets,Swings,AWT)
+notepad++,eclipse,vlc media player, anti virus,calculator		
+		
+		
+Web applications:gmail/amazon
+		www.gmail.com
+		
+		servlets,spring,jsp,jsf,mvc...
+
+
+   Servlets,spring MVC(model view controller)
 
 
 
+http://localhost:8080/SpringMVCDemo2/
 
 
+spring mvc +Database+jpa +hibernate-->tomcat+jsp
 
 
+Servlets-->
+.java-->html--JSP-->
 
+index.jsp
+<html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<body>
+	<%  System.out.println("from printing statement")  %>
+</body>
+<html>
 	Spring Boot	
 		
 		1)auto configuration
 		2)embeded server 
 		3)in memory DB h2
 		4)starters(maven)
-		5)actuators(end point urls)
+		5)actuators(end point urls) beans,config,health
+		
+		
+		
+	Spring mvc:DispatcherServlet(Front controller)	
+		
+	Spring boot:	
+		
+		Lombok
+		
+		Employee
+			eid
+			ename
+			esal
+			eadd
+			edesg
+			eemail....
+			
+			
+Spring Boot Exceptionhadling
+
+
+		1.controller level 
+		2.application level/global level 
+		
+
+
+Junit 
+TDD:Test Driven Development
+BDD:Behavioural driven development
+
+
+
+Testing
+
+Java Programmers
+unit testing
+
+
+
+
+class TestClass
+{
+
+	Calculator calci=new Calculator();
+	calci.add(1,2);
+
+}
+
+
+5.x
+
+			Junit Jupiter   5th
+			Junit Vintage 	3rd,4th
+			Junit Engine(platform)
+			
+			
+			maven
+			lombok
+			sonar
+			junit
+			mockito
+			logger:
+			aop
+			
+			Spring Boot Rest
+			
+			postman
+			swagger
+			
+			
+			Microservices
+			
+			System.out.println()
+			
+					SLF4J-->specification
+					
+					Log4j implementation
+					
+					
+					log levels
+						info
+						warn
+						debug
+						error
+						fatal
+						
+					appender	
+						console appender
+						file
+						database 
+						
+					layout
+						HTML 
+						js...
+
+SpringBootRestJpaBankingApp
+
+			Data JPA
+			webservices
+			logger
+			junit+Mockito
+			sonar
+			maven
+			lombok
+			postman
+			swagger
+			mysql
+			security
+			GIT
+
+	microservices
+		config server
+		eureka server
+		circuit breaker pattern
+		centralised logging
+		api gate way
+		
+	Webservices:
+	============
+
+		Webservices is a technology which is used to share information between 
+		two interoperable appllications
+
+RMI
+EJB			JAVA
+SP
+
+DCOM		.net
+RPC			c/C++
+CORBA		Interoperable
+
+
+		SOAP	->Simple object access protocol
+		REST	-->Representational state transfer
+
+
+JSON-->Jackson
+
+
+
+JPA DSL
+
+		constraints
+		
+			unique,NN,check,PK,FK
+		
+		PK=Unique+NN
+		
+		FK-->Relational 
+		
+		
+		
+				EmpDept		
+		eid  ename    esal 		 edesg    		deptno   dname  dlocation
+		1	  x			100		developer		10		  A		  Hyd
+		2	  y			200		admin			20		  B		  Banglore
+		3	  z			100		hr				30		  C		  Delhi
+		4	  l			400		developer		10		  A		  Hyd
+		5	  k			760		admin			20		  B		  Banglore
+		
+		
+		
+				Dept
+		deptno   dname   dloc
+		10			A		HYD
+		20			B		Banglore
+		30			C		Delhi
+		
+		delete from dept where deptno=10;
+		
+				EMP  
+		eid  ename    esal 		 edesg       deptno  
+		1	  x			100		developer		10		
+		2	  y			200		admin			20		 
+		3	  z			100		hr				30		 
+		4	  l			400		developer		10		 
+		5	  z			760		admin			20		 
+				
+		
+alter table emp add constraint cts_fk foreign key(deptno)references dept(deptno);
+		
+		
+		JPA
+		
+		Employee 			Address
+		
+			Association
+		
+		composition   aggregation
+		
+		onetoone
+		onetomany
+		manytoone
+		manytomany
+		
+		
+		Spring Jpa
+				autoconfiguration
+				embeded server tomcat
+				actuators
+				starters
+				inmemory h2
+	DATA JPA	repository
+	
+	-->CrudRepository
+	-->JpaRepository
+
+Microservices:
+=============		
+	Decompose/Devide/split your large project into smaller services and 
+		communicate them where ever required
+		
+		
+		1.devide
+		2.communication
+		
+		Spliting
+				i.	independently deployed
+				ii.	independently scaled
+				iii.independently Tested
+				iv. independently developed
+				
+		Communication
+
+				Synchronous		:Synchronous means happening at the same time   			HTTP(RestTemplate,OpenFiegn,webclient)
+				Asynchronous	:asynchronous means happening at different times    messageing protocols(KAFKA,activemq,rabbitmq)
+				
+				
+				
+				
+				
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 
 
@@ -352,3 +616,11 @@ JDBC:
 
 
 
+
+
+
+
+
+
+
+					

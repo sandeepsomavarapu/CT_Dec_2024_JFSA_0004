@@ -591,36 +591,330 @@ Microservices:
 
 				Synchronous		:Synchronous means happening at the same time   			HTTP(RestTemplate,OpenFiegn,webclient)
 				Asynchronous	:asynchronous means happening at different times    messageing protocols(KAFKA,activemq,rabbitmq)
+		Postman/Swagger		
+		
+		spring boot 8080--->add starters -->openai
+<dependency>
+   <groupId>org.springdoc</groupId>
+   <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+   <version>2.5.0</version>
+</dependency>
+
+browser 
+-->http://localhost:8080/swagger-ui.html
+		
+FrontEnd:
+=========				
+				
+			gmail:website:web pages
+
+				static web pages	fixed content  gmail login
+				dynamic web pages  JS				   gmail home
+		
+		
+		HTML:	static web pages	 <> </>
+		display the data 
+				
+			
+			HTML-->Tim Berners LEE-->WWW--1991-->1993
+			
+			html5.2 2017
+			
+			welcome.html
+		
+	google	browser engine -->V8
+	
+	
+	Document-->DOM TREE
+	
+	elements
+	
+		VScode
+	 
+CSS:to style our static (html)pages 	
+		
+			CSS3
+		1.inline		< style="">
+		2.internal		<head><style> .........  </head>
+		3.external		mystles.css
+		
+		selectors:
+			element selector		h1
+			group selector			h1,p,body
+			all/universal selector	*
+			id selector			#
+			class selector		.
+		
+		Bootstrap.css  -->X/Twiiter
+		
+		
+		selector{propname:propvalue;.....}
+		
+Bootstrap:
+===========
+		it is html,css,javascript  framework given by twitter  
+			5.x
+		RWD:Responsive Web Design
+
+	getbootstrap.com
+
+	CDN
+		col
+		col-md
+		col-sm
+		col-lg
+		col-xl
+		col-xxl
+		
+Javascript:
+==========
+		Angular
+		react
+		jquery
+		MERN
+		MEAN
+		node
+		......
+		
+	1)front end validations
+	2)can change HTMl Content
+	3)can change CSS (Style)
+	4)dx
+
+	ECMAscript--jpa
+	javascript----hibernate
+
+		
+	variables			datatype varname=value//static typed PL
+	datatypes
+	functions	
+	object
+	arrays
+	string
+	events
+	regular expressions
+	conditional and looping statements
+	
+	javascript dynamic typed lang
+	
+			var/let/const name=value;
+	
+		javscript
+				inline		<body><script>
+				internal	<head><script>
+				external		myfunctions.js
 				
 				
+			var varname=value; dynamic typed language
 				
+				function
 				
+				handling onclick/onsubmit/onkeyup
+					
+				array
+				string
+				object
+				class
+				inheritance.....
+	
+Typescript:Microsoft
+
+		
+		typescript=javascript+datattypes
+		
+
+angular =>.ts+html+css+spec.ts(Testing)
+
+
+
+		var name="suresh";string ,boolean
+			name=123;	number 
+
+typescript static typed pl
+
+			var name="suresh";	javascript
+			var name:string="suresh" typescript
+				name=123;invalid
+
+		welcome.ts--->browser cannot understand ts
+					browsers can understand only Javascript
+			javac
+
+			TSC
+		ts------->js
+
+		transapilation
+
+Angular:
+========
+		Angular JS Framework
+		React JS library
+		......
+					
+					
+					UI pages 
+					
+					component:reusable
+					SPA vs MPA
+					
+					node js 
+					node --version
+					npm --version
+					
+					CLI
+					
+					babel
+					
+					@Component=ts+html+css
+					
 				
-				
+					
+					ng new projectname
+					ng --version
+					(skip spec file) 
+					ng generate component login --skip-tests true 
+					ng g c login
+					ng g s servicename
+					ng g p pipename
+					ng g d directivename
+					ng serve -o --port newport
+					
+					
+					angular directives:	*ngFor,*ngIf....
+					
+					@for
+	Routing:
+	
+					
+	angular forms
+			
+			template driven forms		ngForm--<form>
+												<input  ngModel
+
+				FormsModule
+			
+			model driven forms or reactive forms
+												formgroup
+												formcontrol
+				ReactiveFormsModule	
+					
+					
+					
+@if (a > b) {
+    {{a}} is greater than {{b}}
+  } @else if (b > a) {
+    {{a}} is less than {{b}}
+  } @else {
+    {{a}} is equal to {{b}}
+  }					
+					
+					
+					
+					
+		 custom pipe 
+		 
+		 @Pipe
+		 
+		 @Injectable
+			{
+			providedIn:"root/any/providers/custom"
+			}
 		
+		class MyService{
 		
+			constructor(httpClient:HttpClient){
+					
+			}
 		
+		}
+					 
+					localstorage/sessionstorage
+						 5mb
+						 
+						app component --->child component
+											@Input
+											@Output
+											EventEmitter
+						navigate()
+							routerLink
+							
+							
+							directives 
+								structural	@for,@if,@switch
+								attribute	ngclass,
+								
+								
+						forms 
+							template		--->	
+							reactive/model  --->reactiveformmodules
+						
+
+parent-->child-->@Input
+child-->parent-->@Output Eventemitter
+
+	auth guards					
+											
+				ng generate guard auth						
+					
+					
+					
+			npm install json-server -g
+Dept
+
+Employees
+	html,		@for`
+	ts,		employees[]=[]
+	css,
+	spec.ts
+	
+Services:
+
+			
+			
+EmployeeService	:		ng g service employeeservice  @Injectable
+
+			HttpClient:@Injectable/@Component/@Pipe /@Directive ng g d dname 
+			
+				get("http://localhost:1234/employees/getEmployee/1"),post,put,delete....
+			
+		JSON-server
 		
-		
-		
-		
-		
-		
-		
-		
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+					npm install json-server 
+				json-server --watch db.json --port=3001	
+					
+{
+  "users": [
+    {
+      "id": 123,
+      "name": "mahesh",
+      "email": "mahesh@gmail.com"
+    },
+    {
+      "id": 111,
+      "name": "sandeep",
+      "email": "sandeep.s@rpsconsulting.in"
+    },
+    {
+      "id": 555,
+      "name": "phanikumar",
+      "email": "mahesh@gmail.com"
+    }
+  ]
+}					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 					
